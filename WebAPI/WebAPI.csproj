@@ -17,7 +17,15 @@
 
   <ItemGroup>
     <Folder Include="Files\" />
-    <Folder Include="images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Files\file.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Logs\job-logs.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
